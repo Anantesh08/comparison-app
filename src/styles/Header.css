@@ -1,0 +1,78 @@
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid var(--border, #ddd);
+  background: var(--card-bg);
+  color: var(--text);
+}
+
+.app.dark .app-header {
+  --card-bg: #1e1e1e;
+  --text: #eee;
+  --btn-bg: #007bff;
+  --btn-hover: #0056b3;
+  --border: #333;
+  background: var(--card-bg);
+  color: var(--text);
+}
+
+
+.app.dark .mode-toggle-header {
+  background: var(--btn-bg);
+  color: white;
+}
+
+.app.dark .mode-toggle-header:hover,
+.app.dark .mode-toggle-header:focus {
+  background: var(--btn-hover);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-name {
+  flex: 1;
+  margin: 0 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  user-select: none;
+}
+
+.mode-toggle-header {
+  background: var(--btn-bg);
+  color: white;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s;
+  min-width: 100px;
+}
+
+.mode-toggle-header:hover,
+.mode-toggle-header:focus {
+  background: var(--btn-hover);
+  outline: none;
+}
+
+@media (max-width: 600px) {
+  .app-header {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .app-name {
+    margin: 0;
+    text-align: center;
+    width: 100%;
+  }
+  .mode-toggle-header {
+    width: 100%;
+    min-width: unset;
+  }
+}

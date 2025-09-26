@@ -1,0 +1,98 @@
+export const PRODUCTS = [
+  {
+    id: 1,
+    name: "Galaxy S21",
+    brand: "Samsung",
+    image: "https://via.placeholder.com/150?text=Galaxy+S21",
+    price: 799,
+    features: {
+      Battery: "4000 mAh",
+      Screen: "6.2 inch AMOLED",
+      Camera: "64 MP",
+    },
+  },
+  {
+    id: 2,
+    name: "iPhone 13",
+    brand: "Apple",
+    image: "https://via.placeholder.com/150?text=iPhone+13",
+    price: 999,
+    features: {
+      Battery: "3240 mAh",
+      Screen: "6.1 inch OLED",
+      Camera: "12 MP",
+    },
+  },
+  {
+    id: 3,
+    name: "Pixel 6",
+    brand: "Google",
+    image: "https://via.placeholder.com/150?text=Pixel+6",
+    price: 599,
+    features: {
+      Battery: "4614 mAh",
+      Screen: "6.4 inch OLED",
+      Camera: "50 MP",
+    },
+  },
+  {
+    id: 4,
+    name: "OnePlus 9",
+    brand: "OnePlus",
+    image: "https://via.placeholder.com/150?text=OnePlus+9",
+    price: 729,
+    features: {
+      Battery: "4500 mAh",
+      Screen: "6.55 inch AMOLED",
+      Camera: "48 MP",
+    },
+  },
+  {
+    id: 5,
+    name: "Xperia 5 III",
+    brand: "Sony",
+    image: "https://via.placeholder.com/150?text=Xperia+5+III",
+    price: 999,
+    features: {
+      Battery: "4500 mAh",
+      Screen: "6.1 inch OLED",
+      Camera: "12 MP",
+    },
+  },
+  {
+    id: 6,
+    name: "Moto G Power",
+    brand: "Motorola",
+    image: "https://via.placeholder.com/150?text=Moto+G+Power",
+    price: 249,
+    features: {
+      Battery: "5000 mAh",
+      Screen: "6.6 inch LCD",
+      Camera: "48 MP",
+    },
+  },
+  {
+    id: 7,
+    name: "Redmi Note 11",
+    brand: "Xiaomi",
+    image: "https://via.placeholder.com/150?text=Redmi+Note+11",
+    price: 199,
+    features: {
+      Battery: "5000 mAh",
+      Screen: "6.43 inch AMOLED",
+      Camera: "50 MP",
+    },
+  },
+  {
+    id: 8,
+    name: "Asus ROG Phone 5",
+    brand: "Asus",
+    image: "https://via.placeholder.com/150?text=ROG+Phone+5",
+    price: 899,
+    features: {
+      Battery: "6000 mAh",
+      Screen: "6.78 inch AMOLED",
+      Camera: "64 MP",
+    },
+  },
+];
